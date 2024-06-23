@@ -22,11 +22,7 @@ After running db.php, go to http://localhost:8080 again to see if the users are 
 
 
 ## Set Up Jenkins Docker Container
-Pull the Jenkins Docker Image:
 
-```bash
-docker pull jenkins/jenkins:lts
-```
 Run Jenkins Container:
 
 ```bash

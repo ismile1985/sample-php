@@ -21,35 +21,21 @@ Verify that the setup messages indicate success.
 After running db.php, go to http://localhost:8080 again to see if the users are listed.
 
 
-## Set Up Jenkins Docker Container
-
-Run Jenkins Container:
-
-```bash
-docker run -d -p 8081:8080 -p 50000:50000 --name jenkins -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
-```
-
-This will start Jenkins on port 8081.
-The -v jenkins_home:/var/jenkins_home option mounts the Jenkins home directory to persist data.
-Access Jenkins:
-
-Open your browser and navigate to http://localhost:8081.
-
-
 ##Environment Setup
 
 #### Prerequisites
 - **Operating System**: Linux (Ubuntu recommended) or macOS ( I am using MacOS, so below step mostly for MacOS)
 
 Step 1: Install Docker on Mac
-If you haven't installed Docker yet, follow these steps:
+  If you haven't installed Docker yet, follow these steps:
 
-Download Docker Desktop for Mac from the Docker website. 
+ Download Docker Desktop for Mac from the Docker website. 
  - Download and install Docker Desktop from the [Docker website](https://www.docker.com/products/docker-desktop).
-Install Docker Desktop by following the on-screen instructions.
-Start Docker Desktop and ensure it is running.
+    Install Docker Desktop by following the on-screen instructions.
+   Start Docker Desktop and ensure it is running.
 
 Step 2: Pull the Jenkins Docker Image
+
   1. Open a terminal.
 
   2. Pull the official Jenkins Docker image:

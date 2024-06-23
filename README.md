@@ -26,10 +26,11 @@ After running db.php, go to http://localhost:8080 again to see if the users are 
 Run Jenkins Container:
 
 ```bash
-docker run -d -p 8081:8080 -p 50000:50000 --name jenkins -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts```
+docker run -d -p 8081:8080 -p 50000:50000 --name jenkins -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+```
 
 This will start Jenkins on port 8081.
 The -v jenkins_home:/var/jenkins_home option mounts the Jenkins home directory to persist data.
 Access Jenkins:
 
-- Open your browser and navigate to http://localhost:8081.
+Open your browser and navigate to http://localhost:8081.

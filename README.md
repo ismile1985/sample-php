@@ -137,11 +137,15 @@ Security Measures:
           echo ".env" >> .gitignore
         ```
 
-   Compliance Report
+Compliance Report
 
       . Regular Updates: All dependencies are regularly updated to the latest versions.
+   
       . Code Reviews: All code changes are reviewed by at least one other team member.
+   
       .  Security Scanning: Automated security scanning is integrated into the CI/CD pipeline using tools like Snyk, Dependabot, or Trivy.
+      
       . Least Privilege: Access controls follow the principle of least privilege, ensuring that users only have the permissions they need to perform their roles.
+      
       . Regular Audits: Security audits are conducted regularly to identify and mitigate potential vulnerabilities.
 
